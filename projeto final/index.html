@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="boxes">
+        <div id="cadastro">
+
+            <h1>Cadastrar aluno(a)</h1>
+
+            <label for="codigo">Codigo do Aluno:</label>
+            <input id="codigo" placeholder="Ex: 1H3J">
+            <br><br>
+
+            <label for="nome">Nome do aluno:</label>
+            <input id="nome" placeholder="Nome">
+            <br><br>
+
+            <label for="sobrenome">Sobrenome do aluno:</label>
+            <input id="sobrenome" placeholder="Sobrenome">
+            <br><br>
+
+            <label for="email">Email do aluno: </label>
+            <input id="email" placeholder="Ex: 123@gmail.com">
+            <br><br>
+
+            <label for="notas">Notas do aluno:</label>
+            <input id="nota1" placeholder="Primeria nota">
+            <input id="nota2" placeholder="Segunda nota">
+            <input id="nota3" placeholder="Terceira nota">
+            <br><br>
+
+            <button onclick="salvar()" id="salvar">Salvar</button> <span id="msgsalvo"></span>
+            <br><br>
+
+        </div>
+
+        <div id="textotela">
+            <button onclick="mostrarlista()" id="mostrarlista">Atualizar lista</button>
+
+            <ul id="itemaluno"></ul>
+        </div>
+
+    </div>
+
+
+    <div id="boxes2">
+        <div id="filtrar">
+
+            <h1>Filtragem e alteraçao de matricula</h1>
+
+            <label for="filtro">Codigo do aluno:</label>
+            <input id="filtro" placeholder="Ex: 1H3J">
+            <br><br>
+
+            <button onclick="bfiltro()" id="filtrobu">Filtrar</button>
+            <button onclick="bapagar()" id="apagarbu">Apagar aluno</button>
+            <button onclick="bdesativar()" id="desativarbu">Desativar aluno</button>
+            <br><br>
+
+            <span id="filtrado"></span>
+        </div>
+
+        <div id="textotela2">
+            <h1>Lista Filtrada</h1>
+            <button onclick="mostrarativos()" id="buativo">Alunos ativos</button>
+            <button onclick="mostrarinativos()" id="buinativo">Alunos inativos</button>
+            <button onclick="mostrarmedia()" id="bumedia">Alunos na media</button>
+            <button onclick="mostrarnmedia()" id="bunmedia">Alunos abaixo da media</button>
+                <ul id="mostrarlista2"></ul>
+       
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

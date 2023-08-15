@@ -1,0 +1,149 @@
+body {
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#boxes{
+    display: flex;
+    justify-content: center;
+}
+
+#boxes2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#cadastro {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562)
+}
+
+#nota3{
+    margin-top: 10px;
+}
+
+#salvar{
+border-width: 1px;
+
+    font-size: 17px;
+    padding: 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+#filtrar {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
+
+    margin-top: 20px;
+}
+
+#filtrobu{
+    border-width: 1px;
+
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#apagarbu{
+    border-width: 1px;
+
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#desativarbu{
+    border-width: 1px;
+
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#textotela{
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 625px;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
+
+    margin-left: 25px;
+}
+
+#mostrarlista{
+    border-width: 1px;
+
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#textotela2{
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 625px;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
+
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#buativo{
+    border-width: 1px;
+
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#buinativo{
+    border-width: 1px;
+
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#bumedia{
+    border-width: 1px;
+
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#bunmedia{
+    border-width: 1px;
+
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li{
+    padding: 5px;
+    border: solid black 0.5px;
+}
